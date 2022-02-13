@@ -10,7 +10,7 @@ Through tracking your nutritional intake and simply following suggested quiet-in
 
 Video Link: https://youtu.be/2Fl-XRMKO2w
 
-Presentation link : 
+Presentation link : https://docs.google.com/presentation/d/1mn2klFEefeyTTLLwMyS-3aT8fBIg1vY2/edit?usp=sharing&ouid=113731848437148364765&rtpof=true&sd=true
 
 
 Installation:
