@@ -138,6 +138,7 @@ const Overview = (props) => {
                 handleNuCalculation(nutrition);
             }
             return (
+                
                 <div className="each-chart" key={nutrition}>
                     <Paper className="paper-chart">
                         <Chart data={filteredData}>
@@ -154,6 +155,7 @@ const Overview = (props) => {
                         </Chart>
                     </Paper>
                 </div>
+                
                 )
         })
     }

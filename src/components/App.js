@@ -12,7 +12,7 @@ import Verification from '../pages/Verification';
 import Overview from '../pages/Overview.js';
 import NuReportDisplay from '../pages/NuReportDisplay.js';
 import '../style/App.scss';
-
+// import foodimage from  '../images/nut.jpg';
 const App = () => {
   const [ user, setUserData ] = useState();
   const [ verified, setVerified ] = useState(false);
@@ -62,7 +62,9 @@ const App = () => {
   return (
   
     <div className="App">
+      {/* <img src={foodimage}/> */}
       <Router>
+      {/* <img src={foodimage}/> */}
         <Navbar handleLogout={handleLogout} />
         <Switch>
             <Route exact path="/" render={(routeProps) => {return <Main {...routeProps} loading={loading} setLoading={setLoading} user={user} getUserInfo={getUserInfo} />}} />

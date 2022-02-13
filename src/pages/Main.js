@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import Loading from "../components/Loading.js";
 import "../style/Main.scss";
-
+// import foodimage from '../images/nut.jpg';
 const Main = (props) => {
     const {
         user,
@@ -31,6 +31,7 @@ const Main = (props) => {
             <Loading />
             :
             <div className="main-passage-wrapper">
+                {/* <img src={foodimage}/> */}
                 <h1 className="main-title">
                     <div className="NU">NUTRITION</div>
                     <div className="TRACK">Report</div>

@@ -19,19 +19,27 @@
 .errorMessage-auth {
     position: relative;
     box-sizing: border-box;
-    color: red;
+    color:rgb(3, 3, 49);
     font-size: 20px;
     font-weight: 500;
     top: 2.3em;
+    background-color: white;
+    border-radius: 5px;
+    width:450px;
+    justify-content: center;
 }
 
 .successMessage-auth {
     position: relative;
     box-sizing: border-box;
-    color: #f75422af;
+    color: rgb(3,3,49);
+    background-color: white;
+    border-radius: 5px;
     font-size: 20px;
     font-weight: 500;
     top: 2.3em;
+    width:450px;
+    justify-content: center;
 }
 .manualFormOpenBtn
 {
