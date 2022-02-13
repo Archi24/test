@@ -17,10 +17,16 @@ Installation:
 
 1.Clone repo
 $ git clone https://github.com/Archi24/test.git
+
+
 2.cd into project directory
 $ cd test/
+
+
 3. Install all npm packages
 $ npm install
+
+
 4.Run npm development script
 $ npm start
 
